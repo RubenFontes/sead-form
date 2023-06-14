@@ -1,0 +1,64 @@
+@media (min-width: 992px) {
+    .container {
+        max-width: 1120px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1540px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar {
+    background-color: #0163ac
+}
+
+body > .container {
+    padding: 90px 15px 60px;
+}
+
+body {
+    /* Margin bottom by footer height */
+    /*margin-bottom: 140px;*/
+    margin: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 6%;
+    line-height: 16px; /* Vertically center the text there */
+    background-color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+}
+
+.cabecalho-da-pagina {
+    padding-top: 10px; /*adicionado*/
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    /*margin-top: 10px;*/
+}
+
+.filtro-de-relatorio {
+    padding: 25px;
+    background-color: #eee;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+}
+
+.botao-do-titulo {
+    margin-left: 15px;
+}
